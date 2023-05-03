@@ -1,0 +1,113 @@
+user setting table
+
+city id
+user id
+
+=====DONE=====
+-----------------------------------------
+
+1.craete new tab name manage food
+2.crud foods create
+3.fields: 
+  name
+  title
+  descrp (txtarea)
+  price
+  city(dropdown only for login user)
+	-subtask = userid in manage city
+	-is active(checkbox)
+
+=====DONE=====
+-------------------------------------------
+on home page cityiId get base on user id 
+
+
+2. Show food list by user and city
+   Required things - userId and CityId
+
+1. we can get cityId from userSetting
+
+=====DONE=====
+-------------------------------------------
+filter foods on home page with help of isActive = true
+
+=====DONE=====
+-------------------------------------------
+let currentCity = cityList.find(x=>x.id==fromLoopObj.cityId) 
+
+1 Ambala
+2 Chandigarh
+
+FoodList
+
+PaneerPizza 2
+Salad       1
+
+foodList.cityName - currentCity.name
+
+=====DONE=====
+------------------------------------------------
+1. Find the cartFoods from local storage
+2. if cartFoods not exist then create new array with selected food
+3. then store second step data/array into localStorage
+
+
+1. Find the cartFoods from local storage
+2. if cartFoods exist then push into existing localStorage array
+3. then store second step data/array into localStorage
+
+=====DONE=====
+-------------------------------------------------------
+qty on chekout page
+
+default value set 1 in if
+in else find() value in local storage and qty + 1 add
+
+=====DONE=====
+-------------------------------------------------------
+price calculate each food
+
+=====DONE=====
+-------------------------------------------------------
+show total amount 
+
+=====DONE=====
+-------------------------------------------------------
+remove food from cart list
+
+=====DONE=====
+-------------------------------------------------------
+
+Paneer
+Price - 200 (actual price)
+Qty -     2
+SubTotal - 400
+
+Paneer
+Price - 200 (actual price)
+Qty -     2
+SubTotal - 400
+
+Total Amount - 800
+
+Payment (button)
+
+=====DONE=====
+-------------------------------------------------------
+database -
+
+FoodId - 
+Qty - 
+paymentReceived - true/false
+
+=====DONE=====
+-------------------------------------------------------
+click on pay nevigate to my-order page
+fetch request using userId
+show oder details with payment status
+
+=====DONE=====
+-------------------------------------------------------
+
+
+

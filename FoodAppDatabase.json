@@ -1,0 +1,333 @@
+{
+  "registeredUser": [
+    {
+      "firstName": "Siraj",
+      "lastName": "Alam",
+      "email": "srj@gmail.com",
+      "password": "siraj",
+      "id": 1
+    },
+    {
+      "firstName": "Mehar",
+      "lastName": "Alam",
+      "email": "mehar@gmail.com",
+      "password": "mehar",
+      "id": 2
+    },
+    {
+      "firstName": "Kamar",
+      "lastName": "Alam",
+      "email": "kamar@gmail.com",
+      "password": "kamar",
+      "id": 3
+    },
+    {
+      "firstName": "Faiz",
+      "lastName": "Ansari",
+      "email": "faiz@gmail.com",
+      "password": "faiz",
+      "id": 4
+    },
+    {
+      "firstName": "Gulista",
+      "lastName": "Ansari",
+      "email": "gulista@gmail.com",
+      "password": "12345",
+      "id": 5
+    }
+  ],
+  "cities": [
+    {
+      "userId": 1,
+      "city": "Ambala",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "city": "Chandigarh",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "city": "Delhi",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "city": "Dhampur",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "city": "Chandigarh",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "city": "Mohali",
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "city": "Bijnor",
+      "id": 7
+    },
+    {
+      "userId": 4,
+      "city": "Rewari",
+      "id": 8
+    },
+    {
+      "userId": 4,
+      "city": "Ambala",
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "city": "Ambala",
+      "id": 10
+    }
+  ],
+  "userSetting": [
+    {
+      "userId": 1,
+      "cityId": "3",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "cityId": "4",
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "cityId": "6",
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "cityId": "8",
+      "id": 4
+    }
+  ],
+  "manageFood": [
+    {
+      "id": 1,
+      "foodName": "Pizza",
+      "title": "Spicy Pizza",
+      "price": "200",
+      "cityId": "2",
+      "description": "Crispy & crunchy pizza",
+      "isActive": true,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "foodName": "Biryani",
+      "title": "Chicken Biryani",
+      "price": "300",
+      "cityId": "3",
+      "description": "Wow awesome chicken biryani",
+      "isActive": true,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "foodName": "Samosa",
+      "title": "Yummy Samosa",
+      "price": "15",
+      "cityId": "4",
+      "description": "i like mixed masala samosa",
+      "isActive": true,
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "foodName": "Dosa",
+      "title": "Plain Dosa",
+      "price": "120",
+      "cityId": "6",
+      "description": "special plain dosa",
+      "isActive": true,
+      "userId": 3
+    },
+    {
+      "id": 5,
+      "foodName": "Momos",
+      "title": "Fry Momos",
+      "price": "80",
+      "cityId": "8",
+      "description": "fry chicken momos",
+      "isActive": true,
+      "userId": 4
+    },
+    {
+      "id": 6,
+      "foodName": "Cheese Roll",
+      "title": "Roll",
+      "price": "50",
+      "cityId": "2",
+      "description": "Delicious Roll",
+      "isActive": true,
+      "userId": 1
+    },
+    {
+      "id": 7,
+      "foodName": "Dhokla",
+      "title": "Dhokla",
+      "price": "100",
+      "cityId": "3",
+      "description": "Gujrati Dhokla",
+      "isActive": true,
+      "userId": 1
+    },
+    {
+      "id": 8,
+      "foodName": "Mix Veg",
+      "title": "Mix Veg Salad",
+      "price": "150",
+      "cityId": "3",
+      "description": "Mix Veg Salad",
+      "isActive": true,
+      "userId": 1
+    },
+    {
+      "id": 9,
+      "foodName": "Dal Makhni",
+      "title": "Shahi Dal Makhni",
+      "price": "220",
+      "cityId": "1",
+      "description": "Shahi Dal Makhni",
+      "isActive": false,
+      "userId": 1
+    },
+    {
+      "id": 10,
+      "foodName": "Ras Malai",
+      "title": "Ras Malai",
+      "price": "40",
+      "cityId": "3",
+      "description": "Ras Malai",
+      "isActive": true,
+      "userId": 1
+    },
+    {
+      "id": 11,
+      "foodName": "Roasted Chaap",
+      "title": "Chaap",
+      "price": "40",
+      "cityId": "2",
+      "description": "Roasted Chaap",
+      "isActive": true,
+      "userId": 1
+    },
+    {
+      "id": 12,
+      "foodName": "Barfi",
+      "title": "Barfi",
+      "price": "50",
+      "cityId": "4",
+      "description": "Barfi",
+      "isActive": false,
+      "userId": 2
+    },
+    {
+      "id": 13,
+      "foodName": "Gajar Halwa",
+      "title": "Gajar Halwa",
+      "price": "120",
+      "cityId": "7",
+      "description": "Gajar Halwa",
+      "isActive": true,
+      "userId": 3
+    },
+    {
+      "id": 14,
+      "foodName": "Pizza",
+      "title": "Corn Pizza",
+      "price": "200",
+      "cityId": "9",
+      "description": "Corn Pizza special",
+      "isActive": true,
+      "userId": 4
+    },
+    {
+      "id": 15,
+      "foodName": "Spring Roll",
+      "title": "Spring Roll Veg",
+      "price": "40",
+      "cityId": "5",
+      "description": "Spring Roll Veg Yummy",
+      "isActive": true,
+      "userId": 2
+    }
+  ],
+  "payment": [
+    {
+      "id": 1,
+      "userId": 1,
+      "paymentDetails": [
+        {
+          "userId": 1,
+          "foodId": 7,
+          "qty": 5,
+          "paymentReceived": true
+        },
+        {
+          "userId": 1,
+          "foodId": 8,
+          "qty": 2,
+          "paymentReceived": true
+        },
+        {
+          "userId": 1,
+          "foodId": 10,
+          "qty": 5,
+          "paymentReceived": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "paymentDetails": [
+        {
+          "userId": 1,
+          "foodId": 7,
+          "qty": 3,
+          "paymentReceived": true
+        },
+        {
+          "userId": 1,
+          "foodId": 8,
+          "qty": 2,
+          "paymentReceived": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "paymentDetails": [
+        {
+          "userId": 2,
+          "foodId": 3,
+          "qty": 2,
+          "paymentReceived": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "paymentDetails": [
+        {
+          "userId": 1,
+          "foodId": 2,
+          "qty": 1,
+          "paymentReceived": true
+        }
+      ]
+    }
+  ]
+}

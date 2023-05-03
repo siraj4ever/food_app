@@ -1,0 +1,4 @@
+//start json server
+//Json-Server db.json --watch
+
+Json-Server FoodAppDatabase.json --watch
